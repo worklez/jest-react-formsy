@@ -1,0 +1,17 @@
+{
+  "name": "jest-react-formsy",
+  "version": "0.0.1",
+  "repository": {},
+  "devDependencies": {
+    "istanbul": "^0.3.13",
+    "jasmine-core": "^2.2.0",
+    "jest-cli": "^0.4.0"
+  },
+  "dependencies": {
+    "formsy-react": "^0.12.5",
+    "react": "^0.13.1"
+  },
+  "scripts": {
+    "test": "NODE_PATH=$PWD jest --runInBand"
+  }
+}
